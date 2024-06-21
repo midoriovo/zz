@@ -1,0 +1,23 @@
+.chartcontainer>h2{
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.chartcontainer{
+    position: relative;
+    width: 400px;
+    
+}
+.piechart{
+    position: absolute;
+    top:20px
+}
+.piechart .c3-legend-item{
+    fill:white
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
